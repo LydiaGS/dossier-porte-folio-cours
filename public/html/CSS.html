@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/body.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <input type="checkbox" name="" id="">
+            <div class="hamburger-lines">
+                <span class="line line1"></span>
+                <span class="line line2"></span>
+                <span class="line line3"></span>
+            </div>
+            <ul class="menu-items">
+                <li><a href="./home.html">Home</a></li>
+                <li><a href="./profils.html">Profils</a></li>
+                <li><a href="./cours.html">cours</a></li>
+                <li><a href="./produit.html">produits</a></li>
+                <li><a href="./contact.html">Contacte</a></li>
+            </ul>
+            <h1 class="logo">Amandine</h1>
+        </div>
+    </nav>
+    </section>
+        <section id="#HTML">
+                <div class="about">
+                    <h2><strong>Les bases en CSS</strong></h2>
+                    <div class="contactinfolangague">
+                        <br /><br />
+                        <h3><strong>Partie n°1 CSS</strong></h3>
+                        <br /><br />
+                        <h3><strong>DOCUMENT :</strong> </h3>
+                        <br />
+                        <p>Pour que le navigateur puisse interpréter notre code css, il est nécessaire de liée son css.
+                            Voici un gabarit pour débuter.</p>
+                        <img src="../image/linkCss.png" alt="" style="height: 100%; width: 100%;">
+                        <p>Ce code affiche une page vide en HTML5, avec un Link CSS.</p>
+                        <br>
+                        <p>Les navigateurs sont assez souples, on peut écrire du mauvais code et obtenir visuellement un bon
+                            résultat, le risque étant d’avoir un affichage catastrophique sur certains appareils ou des
+                            problèmes pour l’évolution du projet. Vérifier deux fois votre code css avant d’aller plus
+                            loin.</p>
+                        <br />
+                        <h3><strong>Donc, que sont les CSS, réellement ?</strong> </h3>
+                        <br />
+                        <p>De la même façon que HTML, CSS n'est pas vraiment un langage de programmation. C'est un langage
+                            de feuille de style, c'est-à-dire qu'il permet d'appliquer des styles sur différents éléments
+                            sélectionnés dans un document HTML. Par exemple, on peut sélectionner tous les éléments d'une
+                            page HTML qui sont paragraphes et afficher leurs textes en rouge avec ce code CSS :
+                        </p>
+                        <br /><br />
+                        <img src="../image/cssRED.png" alt="" style="height: 100%;  width: 100%;">
+                        <br /><br />
+                        <p>
+                            Pour écrire en CSS, on utilise des " { } ", elles définissent tous éléments qu'on va mettre
+                            dedand.
+                            Par exemple, on veut changer la couleur du pararaphe:
+                        </p>
+                        <br /><br />
+                        <img src="../image/cssRED.png" alt="" style="height: 100%;  width: 100%;">
+                        <br /><br />
+                        <P>
+                            servira à à inculre tout nos éléments en CSS. La plupart des
+                            "{ }" marchent par paire, la première ouvre pour marquer le début, la seconde ferme
+                            pour marquer la fin.
+                        </P>
+                        <br /><br />
+                        <img src="../image/Capture dÔÇÖe¦ücran 2023-03-21 a¦Ç 12.32.55.png" alt=""
+                            style="height: 100%;  width: 100%;">
+                        <br><br>
+                        Le principe est simple et bien souvent l’éditeur vous aide à l’écriture. Pour répondre à nos
+                        besoins, il est bien sur possible d’imbriquer les "{ }" .
+                        </p>
+                        <br /><br />
+                        <h3><strong>le CSS le plus utilisées :</strong> </h3>
+                        <br /><br />
+                        <img src="../image/CssCode.png" alt="" style="height: 100%; width: 100%;">
+                        <br /><br />
+                        <h3><strong>Partie n°2 Anatomie d'une règle CSS</strong></h3>
+                        <br /><br />
+                        <h3>
+                            <strong>
+                                Tout ce qu’il faut savoir sur l'anatomie d'une règle CSS :
+                            </strong>
+                        </h3>
+                        <br />
+                        <p>
+                            <strong>Qu’est-ce l'anatomie d'une règle CSS</strong>
+                            <br /><br />
+                            Regardons un peu plus en détails ce que nous avons écrit en CSS:
+                            <img src="../image/Porpie݁te݁CSS.png" alt="" style="height: 100%; width: 100%;">
+                            <br /><br />
+                        <p>Cette structure s'appelle un ensemble de règles (ou seulement « une règle »). Les différentes
+                            parties se nomment :</p>
+                        <br /><br />
+                        <p>
+                            <strong>sélecteur</strong>
+                            <br />
+                            C'est le nom de l'élément HTML situé au début de l'ensemble de règles. Il permet de sélectionner
+                            les éléments sur lesquels appliquer le style souhaité (en l'occurence, les éléments p). Pour
+                            mettre en forme un élément différent, il suffit de changer le sélecteur.
+                            <br /><br />
+                            <strong>Déclaration</strong>
+                            <br />
+                            C'est une règle simple comme color: red; qui détermine les propriétés de l'élément que l'on veut
+                            mettre en forme.
+                            <br><br />
+                            <strong>Propriétés</strong>
+                            <br />
+                            Les différentes façons dont on peut mettre en forme un élément HTML (dans ce cas, color est une
+                            propriété des éléments p). En CSS, vous choisissez les différentes propriétés que vous voulez
+                            utiliser dans une règle CSS.
+                            <br /><br />
+                            <strong>Valeur de la propriété</strong>
+                            <br>
+                            À droite de la propriété, après les deux points, on a la valeur de la propriété. Celle-ci permet
+                            de choisir une mise en forme parmi d'autres pour une propriété donnée (par exemple, il y a
+                            d'autres couleurs que red pour la propriété color).
+                        </p>
+                        <br /><br /><br />
+                        <p>
+                            <strong>Autres éléments importants de la syntaxe sont :</strong>
+                            <br/>
+                            chaque ensemble de règles, à l'exception du sélecteur, doit être entre accolades ({}).
+                            pour chaque déclaration, il faut utiliser deux points (:) pour séparer la propriété de ses
+                            valeurs.<br />
+                            pour chaque ensemble de règles, il faut utiliser un point-virgule (;) pour séparer les
+                            déclarations entre elles.<br />
+                            Ainsi, si on veut modifier plusieurs propriétés d'un coup, on peut utiliser plusieurs
+                            déclarations dans une seule règle en les séparant par des points-virgules :
+                        </p>
+                        <br /><br />
+                        <img src="../image/pointvirgule.png" alt="" style="width: 100%; height: 100%;">
+                        <br /><br /><br />
+                        <p>
+                            <strong>Sélectionner plusieurs éléments</strong><br/>
+                            Il est aussi possible de sélectionner plusieurs types d'éléments pour appliquer à tous une même
+                            règle. Il suffit de placer plusieurs sélecteurs, séparés par des virgules. Par exemple :
+                        </p>
+                        <br/><br/>
+                        <img src="../image/plusieursElement.png" alt="" style="width: 100%; height: 100%;">
+                        <br /><br /><br />
+                        <strong>Comment utiliser Le CSS?</strong>
+                        <br /><br>
+                        Le CSS est principalement utilisé pour rendre notre pages HTML avec du style,
+                        ainsi que pour animer HTML, CSS et le contenu à l’aide de JavaScript.
+                        <br /><br /><br />
+                        </p>
+                        <br/><br/>
+                        <p>
+                            Testez chaque selcteur en CSS pour voir le résultat concret. Les selecteurs sont le squelette du CSS.
+                            Et bien entendu, sans squelette, rien ne tient et par conséquent la page web s’effondre. Vous ne
+                            pourrez jamais faire sans. Faites bien attention à fermer Les seclecteurs ! En un rien de temps,
+                            vous vous familiarisez Avec le CSS. Il ne vous restera alors
+                            plus qu’à maîtriser Les deux Languages appris ici.
+                        </p>
+                        <br/><br/>
+                        <h3>LES COMMENTAIRES :</h3>
+                        <p>
+                            Les commentaires sont fortement utilisés dans la programmation. Ils permettent de documenter,
+                            d’annoter ou mieux suivre votre travail. Aide-mémoire, to-do-list, crédits, private-joke, notes
+                            de version, séparation visuelle, ou code délaissé, vous trouverez rapidement leurs usages.
+                            <br /><br />
+                            /* ceci est un commentaire */
+                            <br /><br />
+                            Gardez bien en tête que les commentaires CSS sont invisibles dans le navigateur mais
+                            lisibles et accessibles par tous dans les sources.
+                        </p>
+                        <img src="../image/commentairCSS.png" alt="" style="height: 100%; width: 100%;">
+                        <br /><br />
+                        <h3>GRAMMAIRE ET VOCABULAIRE :</h3>
+                        <p>
+                            Si vous avez bien suivi, vous maitrisez déjà la base de la grammaire du CSS, il ne vous manque
+                            que
+                            le vocabulaire pour vous exprimer pleinement.
+                            Comme dans toute langue, il existe des mots fréquents, rares, désuets et même nouveaux. Si vous
+                            voulez apprendre un langage, il faudra obligatoirement pratiquer, parler ou lire celui-ci. Vous
+                            trouverez en ligne de nombreux exemples didactiques, tous ne sont pas bons, sans erreurs ou
+                            actualisés. Vous avez aussi la possibilité d’inspecter n’importe quel site web à l’aide des
+                            outils de votre navigateur. Il existe de nombreuses références de qualité pour apprendre le
+                            vocabulaire du CSS, citons le site du W3C et le site MDN de Mozilla
+                            (https://developer.mozilla.org/). Les manières de styliser un document web, elles
+                            sont dépendantes des besoins et du planning du projet. Notez aussi que les moteurs de recherches
+                            influencent aussi certaines pratiques.
+                        </p>
+                        <br /><br />
+                        <h3>CONCLUSION :</h3>
+                        <p>
+                            En code :
+                        </p>
+                        <img src="../image/conclusion2CSS.png" alt="" style="height: 100%; width: 100%;">
+                        <img src="../image/Untitled (31).jpg" alt="" style="height: 100%; width: 100%;">
+                        <p>Nous allons passer aux exercices pour mieux comprendre.</p>
+                        <br /><br /><br />
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div id="scroll_to_top">
+            <a href="#top"><img src="../image/top.png" alt="Retourner en haut" /></a>
+        </div>
+       </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-left col-md-4 col-sm-6">
+            <p class="about">
+                <span> About the company</span> Ut congue augue non tellus bibendum, in varius tellus
+                condimentum. In scelerisque nibh tortor, sed rhoncus odio condimentum in. Sed sed est ut
+                sapien ultrices eleifend. Integer tellus est, vehicula eu lectus tincidunt,
+                ultricies feugiat leo. Suspendisse tellus elit, pharetra in hendrerit ut, aliquam quis
+                augue. Nam ut nibh mollis, tristique ante sed, viverra massa.
+            </p>
+            <div class="icons">
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-whatsapp"></i></a>
+                <a href="#"><i class="fa-sharp fa-solid fa-at"></i></a>
+                <a href="#"><i class="fa-brands fa-discord"></i></a>
+                <a href="#"><i class="fa-solid fa-phone"></i></a>
+            </div>
+        </div>
+        <div class="footer-center col-md-4 col-sm-6">
+            <div>
+                <i class="fa fa-map-marker"></i>
+                <p><span>av. du chant 44 </span>1150,Woluwé-Saint-Pierre</p>
+            </div>
+            <div>
+                <i class="fa fa-phone"></i>
+                <p> (+32) 472.589.832</p>
+            </div>
+            <div>
+                <i class="fa fa-envelope"></i>
+                <p><a href="#">letellier.ama@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-right col-md-4 col-sm-6">
+            <h2>Devloppeur Web<span>FREE LANCE</span></h2>
+            <p class="menu">
+                <a href="#"> Home</a> |
+                <a href="#"> Profile</a> |
+                <a href="#"> Aboute</a> |
+                <a href="#">Blog</a> |
+                <a href="#"> Contact</a> |
+                <a href="#"> Map</a>
+            </p>
+            <div class="logo-Footer"><img src="../image/logo.amandine.png" alt="" style="height: 100%; width: 100%;"></div>
+            <br/> <br/>
+            <p class="name"> Letellier Amandine &copy; 2021</p>
+        </div>
+    </footer>
+    <script>
+        $('.handle').on('click', function () {
+            $('nav ul').toggleClass('showing');
+        });
+    </script>
+    <script src="../javascripts/index.js"></script>
+</body>
+
+</html>
