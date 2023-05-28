@@ -1,4 +1,4 @@
-/*div aboute*/
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&display=swap');
 body{
     background-color: #e2e2e2;
 }
@@ -243,6 +243,9 @@ transform:scale(1.1);
     display: flex;
     position: relative;
 }
+.warpper h1{
+    color: black;
+}
 .warpper .sidebar{
     position: fixed;
     width: 200px;
@@ -253,7 +256,7 @@ transform:scale(1.1);
 
 }
 .warpper .sidebar h2{
-    color: #fff;
+    color: black;
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
@@ -264,7 +267,7 @@ transform:scale(1.1);
     border-top: 1px solid rgba(225,225,225,0.5);
 }
 .warpper .sidebar ul li a{
-    color: #bdb8d7;
+    color: black;
     display: block;
 }
 .warpper .sidebar ul li i{
@@ -277,7 +280,7 @@ width: 25px;
 background: #594f8d;
 }
 .warpper .sidebar ul li:hover a{
-color: #fff;
+    color: black;
 }
 .warpper .sidebar .social_media{
     position: absolute;
@@ -294,7 +297,7 @@ color: #fff;
     line-height: 40px;
     text-align: center;
     margin: 0 5px;
-    color: #bdb8d7;
+    color: black;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
 }
@@ -306,12 +309,12 @@ color: #fff;
 .warpper .main_content .header{
     padding: 20px;
     background: #fff;
-    color: #717171;
+    color: black;
     border-bottom: 1px solid #e0e4e8;
 }
 .warpper .main_content .info{
     margin: 10px;
-    color: #717171;
+    color: black;
     line-height: 25px;
 }
 .warpper .main_content .info div{
@@ -328,7 +331,7 @@ color: #fff;
     font-size: 52px;
     margin-bottom: 60px;
     text-align: center;
-    color: #ccc;
+    color: black;
 }
 /*barre de progression*/
 
@@ -386,6 +389,21 @@ color: #fff;
     justify-content: center;
     align-items: center;
 }
+h1{
+    font-family:'Pangolin',sans-serif;
+    display:flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: black;
+}
 h1 span{
     color: red;
-}
+      font-family:'Pangolin',sans-serif;
+      display:flex;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      flex-wrap: wrap;
+  }
