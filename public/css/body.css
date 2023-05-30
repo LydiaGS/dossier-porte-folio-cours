@@ -541,3 +541,74 @@ align-items: center;
 text-align: center;
 flex-direction: column;
 }
+.wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+}
+/*modale*/
+.open-btn,
+.close-btn {
+  border: none;
+  cursor: pointer;
+}
+
+.open-btn {
+  background-color: hsl(0, 0%, 75%);
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: 350ms ease;
+  border-radius: 6px;
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  font-family:'Pangolin',sans-serif !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.open-btn:hover {
+  background-color: hsl(195, 53%, 69%);
+}
+
+.close-btn {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  opacity: .8;
+  transition: 350ms ease;
+}
+
+.close-btn:hover {
+  opacity: 1;
+  scale: 1.125;
+}
+
+.modal {
+  position: relative;
+  height: 250px;
+  width: 300px;
+  margin: auto;
+  padding: 1rem;
+  text-align: center;
+  background-color: rgb(78, 78, 78);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+}
+
+.modal::backdrop {
+  background-color: rgba(17, 17, 17, 0.4);
+}
+
+.modal p {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  place-items: center;
+  color: #fff;
+}
+

@@ -38,33 +38,47 @@
   <br /><br />
   <div class="about">
     <br /><br /><br /><br />
-    <h1> Envie d'un site web ?</h1>
+    <h1> Envie d'un site web ?<br/>Ensemble développons votre visibilité.<br/><br/>Création de site Internet via:</h1>
     <div class="block" style="display: flex; justify-content: center;flex-wrap: wrap">
       <a href="#" class="textOverImage"
-        style="background-image:url(../image/wordpress.jpg)" data-title="Wordpress"
-        data-text="Site codé entièrement en Wordpress.WordPress est extensible et flexible, ce qui nous permettra d’ajouter nos fonctionnalités et modifier le comportement natif sans pour autant se prendre la tête !
+        style="background-image:url(../image/wordpress.jpg)" data-title=" Site inetrnet Wordpress"
+        data-text="Site codé entièrement en WordPress. WordPress est extensible et flexible, ce qui nous permettra d’ajouter nos fonctionnalités et modifier le comportement natif sans pour autant se prendre la tête !
 
                 ">
       </a>
       <a href="#" class="textOverImage"
         style="background-image:url(../image/html&cssp.jpg)"
-        data-title="HTML & CSS" data-text="Site codé en HTML & CSS et Javascripts avec une base de donnée PHP, SQRL, MYSQL, SQLYTE...
+        data-title=" Site inetrnet HTML & CSS" data-text="Site codé en HTML & CSS et Javascripts avec une base de données PHP, SQRL, MYSQL, SQLYTE....
                 ">
       </a>
 
       <a href="#" class="textOverImage"
         style="background-image:url(../image/react.jpg)"
-        data-title="Réact" data-text="Site codé en Réact pour dévlopper une application web.
+        data-title="Site inetrnet Réact" data-text="Site codé en React pour développer une application web.
                 ">
       </a>
   </div>
   <br/><br/>
   <div class="boutons">
     <div>
-      <button class="btns">Devis*</button>
+      <button class="open-btn">En savoir plus!</button>
+      <dialog class="modal">
+        <span class="material-symbols-outlined close-btn">
+      close
+      </span>
+      <br/>
+        <p>
+          prix & devis
+          site de base en HTML & CSS 1050€*<br/>
+          site codé en wordpress 750€*<br/>
+          Application Réact 1250€*<br/>
+          <button class="btns">Devis*</button>
+          *devis gratuit<br/>
+          Le prix de base peut varier en fonction des demandes précises et des besoins du client.
+          </p>
+      </dialog>
     </div>
   </div>
-  <p>*Devis gratuit</p>
   </div>
 </div>
   <br /><br /><br /><br />
@@ -217,6 +231,32 @@
           </div>
         </footer>
       </div>
+       <script>
+      const openButton = document.querySelector(".open-btn");
+const closeButton = document.querySelector(".close-btn");
+const modal = document.querySelector(".modal");
+const dialog = document.querySelector("dialog");
+
+openButton.addEventListener("click", () => {
+  modal.showModal();
+});
+
+closeButton.addEventListener("click", () => {
+  modal.close();
+});
+
+dialog.addEventListener("click", (e) => {
+  const dialogDimensions = dialog.getBoundingClientRect();
+  if (
+    e.clientX < dialogDimensions.left ||
+    e.clientX > dialogDimensions.right ||
+    e.clientY < dialogDimensions.top ||
+    e.clientY > dialogDimensions.bottom
+  ) {
+    dialog.close();
+  }
+});
+    </script>
       <!--fin--footer-->
       <script src="../javascripts/index.js"></script>
 </body>
