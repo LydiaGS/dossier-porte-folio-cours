@@ -425,6 +425,7 @@ h1 span{
     justify-content: space-between;
     -webkit-perspective: 800px;
     perspective: 800px;
+    flex-wrap: wrap;
   }
   .cont .card {
     position: relative;
