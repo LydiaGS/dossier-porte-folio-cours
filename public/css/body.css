@@ -653,4 +653,12 @@ border-left: solid 5px rgb(7, 90, 7);
 background:rgb(169, 252, 169);
 width: 600px;
 }
-
+.notion .red{
+    color: red !important;
+}
+.notion1{
+    gap: 3em;
+}
+.notion .liensa{
+    color: blue !important;
+}
