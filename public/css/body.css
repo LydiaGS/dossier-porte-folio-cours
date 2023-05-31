@@ -246,6 +246,7 @@ transform:scale(1.1);
 }
 .warpper h1{
     color: black;
+    font-family:'Pangolin',sans-serif !important;
 }
 .warpper .sidebar{
     position: fixed;
@@ -261,6 +262,7 @@ transform:scale(1.1);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 30px;
+    font-family:'Pangolin',sans-serif !important;
 }
 .warpper .sidebar ul li{
     padding: 15px;
@@ -328,7 +330,7 @@ background: #594f8d;
    flex-wrap: wrap;
 }
 .wrapper h1{
-    font-family: 'Allura', cursive;
+    font-family:'Pangolin',sans-serif !important;
     font-size: 52px;
     margin-bottom: 60px;
     text-align: center;
@@ -612,5 +614,43 @@ flex-direction: column;
   display: grid;
   place-items: center;
   color: #fff;
+}
+/*WordPress*/
+.chapitrewordpress{
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    text-align: left;
+    flex-wrap:wrap;
+    gap: 3em;
+}
+.block{
+border-left: solid 5px rgb(7, 90, 7);
+background:rgb(169, 252, 169);
+width: 600px;
+
+}
+.block p{
+    margin: 10px;
+}
+.colorP{
+color: blue;
+}
+.blockliens .liensa{
+    color: blue !important;
+}
+.différence .liensa{
+    color: blue !important;
+}
+.différence .red{
+    color: red !important;
+}
+.différence .dif{
+margin: 20px;
+}
+.différence .rappel{
+border-left: solid 5px rgb(7, 90, 7);
+background:rgb(169, 252, 169);
+width: 600px;
 }
 
