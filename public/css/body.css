@@ -630,6 +630,12 @@ background:rgb(169, 252, 169);
 height: 100%;
 width:100%;
 }
+.block1{
+    border-left: solid 5px #e2e2e2;
+    background:#e2e2e2;
+    height: 100%;
+    width:100%;  
+}
 .block p{
     margin: 10px;
 }
