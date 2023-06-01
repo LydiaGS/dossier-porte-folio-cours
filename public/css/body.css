@@ -627,8 +627,8 @@ flex-direction: column;
 .block{
 border-left: solid 5px rgb(7, 90, 7);
 background:rgb(169, 252, 169);
-width: 600px;
-
+height: 100%;
+width:100%;
 }
 .block p{
     margin: 10px;
@@ -651,7 +651,8 @@ margin: 20px;
 .différence .rappel{
 border-left: solid 5px rgb(7, 90, 7);
 background:rgb(169, 252, 169);
-width: 600px;
+height: 100%;
+width:100%;
 }
 .notion .red{
     color: red !important;
