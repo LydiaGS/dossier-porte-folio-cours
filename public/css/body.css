@@ -662,3 +662,12 @@ width: 600px;
 .notion .liensa{
     color: blue !important;
 }
+.hautcards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.blanc{
+    background-color: #fff;
+}
